@@ -1,0 +1,28 @@
+package entities;
+
+public class Aluno {
+	public String nome;
+	public double n1;
+	public double n2;
+	public double n3;
+	public static double mM = 60.0;
+	public double media;
+
+	public double grade() {
+		return media = n1 + n2 + n3;
+	}
+	public static void verificarAprovacao(double media) {
+		if (media < mM) {
+			System.out.printf("FINAL GRADE = %.2f%n", media);
+			System.out.println("FAILED");
+			double dif = mM - media;
+			System.out.printf("MISSING %.2f POINTS", dif);
+		}
+		else {
+			System.out.printf("FINAL GRADE = %.2f%n", media);
+			System.out.println("APROVED");
+		}
+	}
+
+	
+}

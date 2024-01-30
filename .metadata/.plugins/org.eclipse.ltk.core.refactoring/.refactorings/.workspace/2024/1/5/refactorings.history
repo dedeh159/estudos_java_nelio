@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;alunoMedia&apos; to &apos;alunoMedia-ifelse&apos;&#x0D;&#x0A;- Original element: &apos;alunoMedia&apos;&#x0D;&#x0A;- Renamed element: &apos;alunoMedia&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;alunoMedia&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=alunoMedia" name="alunoMedia-ifelse" references="true" stamp="1706550424319" version="1.0"/>
+</session>

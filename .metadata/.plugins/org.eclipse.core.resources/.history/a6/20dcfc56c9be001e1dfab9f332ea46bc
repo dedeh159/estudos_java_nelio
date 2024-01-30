@@ -1,0 +1,25 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.Aluno;
+
+public class Program {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		Aluno student = new Aluno();
+		
+		student.nome = sc.next();
+		student.n1 = sc.nextDouble();
+		student.n2 = sc.nextDouble();
+		student.n3 = sc.nextDouble();
+		System.out.println(student.nome + student.n1 + student.n2 + student.n3);
+		
+		
+		
+		sc.close();
+	}
+
+}
